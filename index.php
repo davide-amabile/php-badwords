@@ -1,7 +1,9 @@
 <?php
 $badWords = $_GET["badwords"];
 
-$newBadWords =str_replace($badWords,"***",$badWords)
+$text = "Siete dei coglioni";
+
+$newBadWords =str_replace($badWords,"***",$text);
 ?>
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
@@ -10,7 +12,7 @@ $newBadWords =str_replace($badWords,"***",$badWords)
     <title>badwords</title>
   </head>
   <body>
-    <h1>Siete dei <?php echo $newBadWords ?></h1>
+    <h1> <?php echo $newBadWords ?></h1>
 
   </body>
 </html>
