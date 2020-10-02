@@ -9,7 +9,7 @@ $badWords = $_GET["badwords"];
     <title>badwords</title>
   </head>
   <body>
-    <h1>Siete dei <?php $badWords ?></h1>
+    <h1>Siete dei <?php echo $badWords ?></h1>
 
   </body>
 </html>
